@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("ch.qos.reload4j:reload4j:1.2.19")
+//    implementation("log4j:log4j:1.2.17")
+    implementation("org.slf4j:slf4j-api:1.7.30")
+    implementation("org.slf4j:slf4j-log4j12:1.7.30")
+}
